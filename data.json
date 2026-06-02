@@ -1,0 +1,213 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/watchporn-downloader",
+  "serply_link": "https://serp.ly/watchporn-downloader",
+  "app_name": "Watchporn Video Downloader",
+  "short_description": "Download & Save Watchporn Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Watchporn Downloader is a browser extension built for WatchPorn video pages on watchporn.to. It detects the media playing on a supported video page and lets you save it as an MP4 file directly to your device. The extension is designed with a single-site focus so you get reliable detection and a clean workflow without unnecessary bloat.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/watchporn-downloader-fullscreen-01-de6decb5ef.webp",
+    "https://apps.serp.co/media/optimized-products/watchporn-downloader-fullscreen-02-a0c9c268a0.webp",
+    "https://apps.serp.co/media/optimized-products/watchporn-downloader-fullscreen-03-8f3bed8904.webp",
+    "https://apps.serp.co/media/optimized-products/watchporn-downloader-fullscreen-04-da0f41de9b.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Does this extension work on all WatchPorn pages?",
+      "answer": "It is designed for individual video pages on watchporn.to. Category pages, search results, and other sections are not supported."
+    },
+    {
+      "question": "Can I download multiple videos at the same time?",
+      "answer": "The extension processes one download at a time. Starting a second download will queue it after the current one finishes."
+    },
+    {
+      "question": "What browsers are supported?",
+      "answer": "The extension is available for Chrome, Edge, Brave, and Firefox. Check the latest release for specific build files."
+    },
+    {
+      "question": "Do I need an account to use the extension?",
+      "answer": "You need to sign in with your email to activate the trial or a paid license. A one-time password is sent for verification."
+    },
+    {
+      "question": "Is the extension safe to use?",
+      "answer": "The extension only interacts with WatchPorn video pages to detect media streams. It does not collect personal data or modify page content beyond the download functionality."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Archiving content you have permission to keep for personal reference"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Single-site focus for reliable WatchPorn video detection",
+    "Straightforward download flow from video pages",
+    "Standard MP4 output for easy playback and archiving",
+    "Host coverage for watchporn.to, www.watchporn.to, and subdomains",
+    "Transparent development status with clear documentation",
+    "Dedicated detection for WatchPorn video pages on watchporn.to",
+    "Standard MP4 output for broad device and player compatibility",
+    "Host coverage for the main domain, www subdomain, and all subdomains",
+    "Simple install and use workflow with minimal setup",
+    "Popup interface for initiating downloads",
+    "In-page detection that activates when you start playback",
+    "Clear download progress and completion feedback",
+    "Lightweight extension that does not slow down your browsing"
+  ],
+  "content": {
+    "why": [
+      "Watching videos on WatchPorn is straightforward, but saving them for offline access is not always simple. The platform does not provide a built-in download button, and generic downloader extensions often fail because they are not optimized for the site's player structure. You end up with broken downloads, missing audio, or files in formats that are difficult to play.",
+      "Watchporn Downloader solves this by focusing exclusively on WatchPorn video pages. It is built to detect the media stream from the player and deliver it as a clean MP4 file. There is no guesswork, no trial-and-error with multiple tools, and no need to dig through page source code. You get a single purpose extension that does one thing well."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open WatchPorn and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Open your browser and navigate to watchporn.to.",
+      "Browse or search for the video you want to download.",
+      "Click on the video to open its dedicated playback page.",
+      "Start the video playing so the player initializes.",
+      "Click the Watchporn Downloader icon in your browser toolbar.",
+      "The popup will show the detected media sources from the page.",
+      "Select the quality or format option you prefer.",
+      "Click the download button and wait for the MP4 file to save."
+    ],
+    "supported_formats": [
+      "Input: Video streams detected from WatchPorn video pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Users who regularly watch videos on WatchPorn and want offline access",
+      "People who prefer a dedicated extension over generic multi-site downloaders",
+      "Users who need MP4 output for compatibility with media players and devices",
+      "Anyone testing or evaluating a focused WatchPorn downloader candidate"
+    ],
+    "use_cases": [
+      "Saving a favorite video to watch later without an internet connection",
+      "Archiving content you have permission to keep for personal reference",
+      "Building a local media library from WatchPorn video pages",
+      "Testing the extension against a known WatchPorn video URL",
+      "Evaluating the downloader before committing to a paid license"
+    ],
+    "troubleshooting": [
+      "The extension does not detect any media on the page Make sure the video is playing and the player has fully loaded. Try refreshing the page and starting playback again.",
+      "The download starts but the file is corrupted Check your internet connection during the download. A stable connection is required for the full file to transfer correctly.",
+      "The extension icon is grayed out on WatchPorn pages Ensure you are on a supported WatchPorn video page. The extension is designed for individual video pages, not category or search result pages.",
+      "The download does not start after clicking the button Your browser may be blocking pop-ups or automatic downloads. Check your browser settings and allow downloads from the extension.",
+      "The popup shows no available sources Some videos may use a player configuration that the extension cannot parse. Try a different video page to confirm the issue is specific to that one video."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported WatchPorn page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "WatchPorn is an adult content platform; use the extension responsibly",
+      "The extension is in candidate stage and may not detect all video formats"
+    ],
+    "about": [
+      "WatchPorn is an adult video streaming platform that hosts a large library of user-uploaded and studio content. Watchporn Downloader helps you save videos from the site for offline viewing, giving you more control over your media library."
+    ]
+  },
+  "serpx_link": "https://serpx.link/watchporn-downloader",
+  "github_topics": [
+    "watchporn-download",
+    "watchporn-downloader",
+    "watchporn-video-downloader",
+    "watchporn-video-downloader-online",
+    "watchporn-video-downloader-mac",
+    "watchporn-video-downloader-window",
+    "watchporn-video-downloader-free",
+    "watchporn-video-downloader-extension",
+    "watchporn-video-downloader-app",
+    "watchporn-video-downloader-chrome",
+    "watchporn-video-downloader-from-url",
+    "how-to-download-watchporn-videos",
+    "how-to-download-watchporn-videos-mac",
+    "how-to-download-watchporn-videos-windows",
+    "how-to-download-watchporn-videos-online",
+    "how-to-download-watchporn-videos-free",
+    "how-to-download-from-watchporn",
+    "how-to-download-videos-from-watchporn",
+    "download-watchporn-videos",
+    "watchporn-video-tutorial",
+    "save-watchporn-videos",
+    "watchporn-video-content-saver",
+    "how-to-download-watchporn-videos-for-free"
+  ],
+  "hashtags": [
+    "#WatchpornDownload",
+    "#WatchpornDownloader",
+    "#WatchpornVideoDownloader",
+    "#WatchpornVideoDownloaderOnline",
+    "#WatchpornVideoDownloaderMac",
+    "#WatchpornVideoDownloaderWindow",
+    "#WatchpornVideoDownloaderFree",
+    "#WatchpornVideoDownloaderExtension",
+    "#WatchpornVideoDownloaderApp",
+    "#WatchpornVideoDownloaderChrome",
+    "#WatchpornVideoDownloaderFromURL",
+    "#HowToDownloadWatchpornVideos",
+    "#HowToDownloadWatchpornVideosMac",
+    "#HowToDownloadWatchpornVideosWindows",
+    "#HowToDownloadWatchpornVideosOnline",
+    "#HowToDownloadWatchpornVideosFree",
+    "#HowToDownloadFromWatchporn",
+    "#HowToDownloadVideosFromWatchporn",
+    "#DownloadWatchpornVideos",
+    "#WatchpornVideoTutorial",
+    "#SaveWatchpornVideos",
+    "#WatchpornVideoContentSaver",
+    "#HowToDownloadWatchpornVideosForFree"
+  ],
+  "youtube_tags": [
+    "Watchporn Download",
+    "Watchporn Downloader",
+    "Watchporn Video Downloader",
+    "Watchporn Video Downloader Online",
+    "Watchporn Video Downloader Mac",
+    "Watchporn Video Downloader Window",
+    "Watchporn Video Downloader Free",
+    "Watchporn Video Downloader Extension",
+    "Watchporn Video Downloader App",
+    "Watchporn Video Downloader Chrome",
+    "Watchporn Video Downloader From URL",
+    "How To Download Watchporn Videos",
+    "How To Download Watchporn Videos Mac",
+    "How To Download Watchporn Videos Windows",
+    "How To Download Watchporn Videos Online",
+    "How To Download Watchporn Videos Free",
+    "How To Download From Watchporn",
+    "How To Download Videos From Watchporn",
+    "Download Watchporn Videos",
+    "Watchporn Video Tutorial",
+    "Save Watchporn Videos",
+    "Watchporn Video Content Saver",
+    "How To Download Watchporn Videos For Free"
+  ]
+}
